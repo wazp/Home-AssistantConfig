@@ -1,0 +1,29 @@
+- platform: group
+  name: Computer Lights
+  entities:
+    - light.computer_halo_1_level_light_color_on_off
+    - light.computer_halo_2_level_light_color_on_off
+    - light.computer_halo_3_level_light_color_on_off
+    - light.computer_halo_4_level_light_color_on_off
+- platform: group
+  name: TV Lights
+  entities:
+    - light.tv_halo_1_level_light_color_on_off
+    - light.tv_halo_2_level_light_color_on_off
+    - light.tv_halo_3_level_light_color_on_off
+    - light.tv_halo_4_level_light_color_on_off
+    - light.tv_halo_5_level_light_color_on_off
+    - light.tv_halo_6_level_light_color_on_off
+- platform: group
+  name: Basement Lights
+  entities:
+    - light.computer_halo_1_level_light_color_on_off
+    - light.computer_halo_2_level_light_color_on_off
+    - light.computer_halo_3_level_light_color_on_off
+    - light.computer_halo_4_level_light_color_on_off
+    - light.tv_halo_1_level_light_color_on_off
+    - light.tv_halo_2_level_light_color_on_off
+    - light.tv_halo_3_level_light_color_on_off
+    - light.tv_halo_4_level_light_color_on_off
+    - light.tv_halo_5_level_light_color_on_off
+    - light.tv_halo_6_level_light_color_on_off
