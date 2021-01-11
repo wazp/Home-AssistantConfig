@@ -3,6 +3,7 @@
 # all yaml files, except specified below
 !*.yaml
 !.gitignore
+!.travis.yml
 !*.md
 
 # Ignore folders.
