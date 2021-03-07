@@ -1,17 +1,33 @@
-# Ignore everything except...
-*
-# all yaml files, except specified below
-!*.yaml
-!.gitignore
-!.travis.yml
-!*.md
+# Generic ignores
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.pyc
+._*
+.DS_Store
+__pycache__
 
-# Ignore folders.
-.storage
+# Directory (contents) ignores
 .cloud
-.google.token
+.storage
+deps
+tts
+www
 
-# Double check so these really are ignored.
+# Specific file ignores
+.homekit.state
+.HA_VERSION
+.uuid
+alexa_media*.pickle
 ip_bans.yaml
-secrets.yaml
 known_devices.yaml
+options.xml
+OZW_Log.txt
+pyozw.sqlite
+secrets.yaml
+zwcfg_*
+zwscene.xml
+
+# Ignore files created by IDE's
+.vscode

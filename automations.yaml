@@ -1,1 +1,10 @@
-[]
+- id: '1615095129687'
+  alias: Lights On At Sunset
+  description: ''
+  use_blueprint:
+    path: CyanAutomation/lights_on_at_sunset.yaml
+    input:
+      elevation_shift: 1
+      target_light:
+        device_id: 04e0e81711f48d648e2b7438df26d35a
+      target_brightness: 20
