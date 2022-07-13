@@ -1,0 +1,160 @@
+- id: '1637611128653'
+  name: Computer Lights On, Regular Brightness
+  entities:
+    light.computer_lights:
+      min_mireds: 200
+      max_mireds: 370
+      supported_color_modes:
+      - color_temp
+      color_mode: color_temp
+      brightness: 13
+      color_temp: 333
+      hs_color:
+      - 27.82
+      - 56.814
+      rgb_color:
+      - 255
+      - 177
+      - 110
+      xy_color:
+      - 0.496
+      - 0.383
+      entity_id:
+      - light.computer_halo_1_level_light_color_on_off
+      - light.computer_halo_2_level_light_color_on_off
+      - light.computer_halo_3_level_light_color_on_off
+      - light.computer_halo_4_level_light_color_on_off
+      friendly_name: Computer Lights
+      icon: mdi:lightbulb-group
+      supported_features: 40
+      state: 'on'
+- id: '1637611165759'
+  name: Computer Lights Off
+  entities:
+    light.computer_lights:
+      min_mireds: 200
+      max_mireds: 370
+      supported_color_modes:
+      - color_temp
+      entity_id:
+      - light.computer_halo_1_level_light_color_on_off
+      - light.computer_halo_2_level_light_color_on_off
+      - light.computer_halo_3_level_light_color_on_off
+      - light.computer_halo_4_level_light_color_on_off
+      friendly_name: Computer Lights
+      icon: mdi:lightbulb-group
+      supported_features: 40
+      state: 'off'
+- id: '1637611959735'
+  name: Computer Lights Full Brightness
+  entities:
+    light.computer_lights:
+      min_mireds: 200
+      max_mireds: 370
+      supported_color_modes:
+      - color_temp
+      color_mode: color_temp
+      brightness: 254
+      color_temp: 333
+      hs_color:
+      - 27.82
+      - 56.814
+      rgb_color:
+      - 255
+      - 177
+      - 110
+      xy_color:
+      - 0.496
+      - 0.383
+      entity_id:
+      - light.computer_halo_1_level_light_color_on_off
+      - light.computer_halo_2_level_light_color_on_off
+      - light.computer_halo_3_level_light_color_on_off
+      - light.computer_halo_4_level_light_color_on_off
+      friendly_name: Computer Lights
+      icon: mdi:lightbulb-group
+      supported_features: 40
+      state: 'on'
+- id: '1637612301952'
+  name: TV Lights On, Regular Brightness
+  entities:
+    light.tv_lights:
+      min_mireds: 200
+      max_mireds: 370
+      supported_color_modes:
+      - color_temp
+      color_mode: color_temp
+      brightness: 15
+      color_temp: 333
+      hs_color:
+      - 27.82
+      - 56.814
+      rgb_color:
+      - 255
+      - 177
+      - 110
+      xy_color:
+      - 0.496
+      - 0.383
+      entity_id:
+      - light.tv_halo_1_level_light_color_on_off
+      - light.tv_halo_2_level_light_color_on_off
+      - light.tv_halo_3_level_light_color_on_off
+      - light.tv_halo_4_level_light_color_on_off
+      - light.tv_halo_5_level_light_color_on_off
+      - light.tv_halo_6_level_light_color_on_off
+      friendly_name: TV Lights
+      icon: mdi:lightbulb-group
+      supported_features: 40
+      state: 'on'
+- id: '1637612414456'
+  name: TV Lights Off
+  entities:
+    light.tv_lights:
+      min_mireds: 200
+      max_mireds: 370
+      supported_color_modes:
+      - color_temp
+      entity_id:
+      - light.tv_halo_1_level_light_color_on_off
+      - light.tv_halo_2_level_light_color_on_off
+      - light.tv_halo_3_level_light_color_on_off
+      - light.tv_halo_4_level_light_color_on_off
+      - light.tv_halo_5_level_light_color_on_off
+      - light.tv_halo_6_level_light_color_on_off
+      friendly_name: TV Lights
+      icon: mdi:lightbulb-group
+      supported_features: 40
+      state: 'off'
+- id: '1637612447359'
+  name: TV Lights Full Brightness
+  entities:
+    light.tv_lights:
+      min_mireds: 200
+      max_mireds: 370
+      supported_color_modes:
+      - color_temp
+      color_mode: color_temp
+      brightness: 254
+      color_temp: 333
+      hs_color:
+      - 27.82
+      - 56.814
+      rgb_color:
+      - 255
+      - 177
+      - 110
+      xy_color:
+      - 0.496
+      - 0.383
+      entity_id:
+      - light.tv_halo_1_level_light_color_on_off
+      - light.tv_halo_2_level_light_color_on_off
+      - light.tv_halo_3_level_light_color_on_off
+      - light.tv_halo_4_level_light_color_on_off
+      - light.tv_halo_5_level_light_color_on_off
+      - light.tv_halo_6_level_light_color_on_off
+      friendly_name: TV Lights
+      icon: mdi:lightbulb-group
+      supported_features: 40
+      state: 'on'

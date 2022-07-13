@@ -1,0 +1,41 @@
+2022-07-12 20:56:51 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-07-12 20:57:06 ERROR (MainThread) [homeassistant.components.automation] Blueprint Inovelli Red Series LZW30-SN Switch (ZWave-JS) generated invalid automation with inputs OrderedDict([('zwave_device', '60b1068625c77ac037bdb9d7e6a84cf3'), ('button_a', [OrderedDict([('scene', '')])]), ('button_b', [OrderedDict([('scene', 'scene.computer_lights_off')])]), ('button_b2', [])]): Entity ID  is an invalid entity ID for dictionary value @ data['action'][4]['choose'][1]['sequence'][0]['scene']. Got None
+2022-07-12 20:57:09 WARNING (MainThread) [homeassistant.config_entries] Config entry 'INSIGNIA•Roku TV - 2N00G3525336' for roku integration not ready yet: Invalid response from API: Error occurred while communicating with device; Retrying in background
+2022-07-12 20:57:16 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Z-Wave JS' for zwave_js integration not ready yet: Invalid server version: Z-Wave JS Server version is incompatible: 1.11.0 a version is required that supports at least api schema 20; Retrying in background
+2022-07-12 20:57:16 WARNING (MainThread) [homeassistant.setup] Setup of automation is taking over 10 seconds.
+2022-07-12 20:57:16 WARNING (MainThread) [homeassistant.components.media_player] Setup of media_player platform samsungtv is taking over 10 seconds.
+2022-07-12 20:57:17 WARNING (MainThread) [homeassistant.config_entries] Config entry 'CGM4140COM' for upnp integration not ready yet: Device not discovered: uuid:ebf5a0a0-1dd1-11b2-a90f-8417eff1a93d::urn:schemas-upnp-org:device:InternetGatewayDevice:1; Retrying in background
+2022-07-12 20:57:17 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Canon MB2300 series' for ipp integration not ready yet: Invalid response from API: Timeout occurred while connecting to IPP server.; Retrying in background
+2022-07-12 20:57:18 WARNING (MainThread) [homeassistant.components.weather] homeassistant.components.ecobee.weather::EcobeeWeather is overriding deprecated methods on an instance of WeatherEntity, this is not valid and will be unsupported from Home Assistant 2023.1. Please create a bug report at https://github.com/home-assistant/core/issues?q=is%3Aopen+is%3Aissue
+2022-07-12 20:57:19 WARNING (MainThread) [homeassistant.helpers.frame] Detected code that uses str for device registry entry_type. This is deprecated and will stop working in Home Assistant 2022.3, it should be updated to use DeviceEntryType instead. Please report this issue.
+Stack (most recent call last):
+  File "/usr/local/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/local/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/src/homeassistant/homeassistant/__main__.py", line 203, in <module>
+    sys.exit(main())
+  File "/usr/src/homeassistant/homeassistant/__main__.py", line 191, in main
+    exit_code = runner.run(runtime_conf)
+  File "/usr/src/homeassistant/homeassistant/runner.py", line 119, in run
+    return loop.run_until_complete(setup_and_run_hass(runtime_config))
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1896, in _run_once
+    handle._run()
+  File "/usr/local/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 507, in _async_add_entity
+    device = device_registry.async_get_or_create(**processed_dev_info)  # type: ignore[arg-type]
+  File "/usr/src/homeassistant/homeassistant/helpers/device_registry.py", line 369, in async_get_or_create
+    report(  # type: ignore[unreachable]
+  File "/usr/src/homeassistant/homeassistant/helpers/frame.py", line 74, in report
+    _LOGGER.warning(msg, stack_info=True)
+2022-07-12 20:57:55 WARNING (MainThread) [homeassistant.components.zha.core.channels.base] [0xF115:1:0x0300]: async_initialize: all attempts have failed: [DeliveryError('[0xf115:1:0x0300]: Message send failure'), DeliveryError('[0xf115:1:0x0300]: Message send failure'), DeliveryError('[0xf115:1:0x0300]: Message send failure'), DeliveryError('[0xf115:1:0x0300]: Message send failure')]
+2022-07-12 20:57:55 WARNING (MainThread) [homeassistant.components.zha.core.channels.base] [0xF115:1:0x0006]: async_initialize: all attempts have failed: [DeliveryError('[0xf115:1:0x0006]: Message send failure'), DeliveryError('[0xf115:1:0x0006]: Message send failure'), DeliveryError('[0xf115:1:0x0006]: Message send failure'), DeliveryError('[0xf115:1:0x0006]: Message send failure')]
+2022-07-12 20:57:55 WARNING (MainThread) [homeassistant.components.zha.core.channels.base] [0xF115:1:0x0008]: async_initialize: all attempts have failed: [DeliveryError('[0xf115:1:0x0008]: Message send failure'), DeliveryError('[0xf115:1:0x0008]: Message send failure'), DeliveryError('[0xf115:1:0x0008]: Message send failure'), DeliveryError('[0xf115:1:0x0008]: Message send failure')]
+2022-07-12 21:12:07 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for core_zwave_js: Container addon_core_zwave_js is not running
+2022-07-12 21:18:15 WARNING (Thread-4 (_thread_main)) [homeassistant.components.mqtt.client] Disconnected from MQTT server core-mosquitto:1883 (7)
+2022-07-12 21:34:25 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /homeassistant/restart request Server disconnected

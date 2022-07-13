@@ -8,3 +8,45 @@
       target_light:
         device_id: 04e0e81711f48d648e2b7438df26d35a
       target_brightness: 20
+- id: '1637611909805'
+  alias: Computer Light Switch Scene
+  description: ''
+  use_blueprint:
+    path: billyjacoby/inovelliLZW30.yaml
+    input:
+      zwave_device: 60b1068625c77ac037bdb9d7e6a84cf3
+      button_a:
+      - scene: ''
+      button_b:
+      - scene: scene.computer_lights_off
+      button_b2: []
+- id: '1637612065258'
+  alias: Computer Lights Automation
+  description: ''
+  use_blueprint:
+    path: billyjacoby/inovelliLZW30.yaml
+    input:
+      zwave_device: 60b1068625c77ac037bdb9d7e6a84cf3
+      button_a:
+      - scene: scene.computer_lights_on
+      button_a2:
+      - scene: scene.computer_lights_full_brightness
+      button_b:
+      - scene: scene.computer_lights_off
+      button_b2:
+      - scene: scene.computer_lights_on
+- id: '1637612516147'
+  alias: TV Lights automation
+  description: ''
+  use_blueprint:
+    path: billyjacoby/inovelliLZW30.yaml
+    input:
+      zwave_device: b4ee90bfe398339de9e4b389fe5ae87b
+      button_a:
+      - scene: scene.tv_lights_on
+      button_a2:
+      - scene: scene.tv_lights_full_brightness
+      button_b:
+      - scene: scene.tv_lights_off
+      button_b2:
+      - scene: scene.tv_lights_on
